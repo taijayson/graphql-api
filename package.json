@@ -1,0 +1,29 @@
+{
+  "name": "graphql-api",
+  "version": "Alpha 0.0.1",
+  "description": "Simple graphql API for frontend client",
+  "main": "api.ts",
+  "keywords": [
+    "graphqlAPI"
+  ],
+  "author": "TaiJay",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "dev": "nodemon api.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
